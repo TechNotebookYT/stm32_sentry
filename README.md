@@ -104,5 +104,3 @@ The core logic replaces standard blocking delays with a 3-Stage Finite State Mac
 * **Buzzer Integration:** Adding an audible alarm during the `NOTIFY` state if proximity is < 20cm.
 * **Wireless:** Integration with ESP8266/ESP32 via UART to send alerts to a mobile device.
 
----
-*Built with STM32CubeIDE*
