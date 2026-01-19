@@ -5,7 +5,9 @@
 ![Language](https://img.shields.io/badge/Language-C-orange) ![Platform](https://img.shields.io/badge/Platform-STM32_F401RE_NUCLEO-green)
 
 ## System Demo
-![System in Action](docs/img/full_demo.jpg)
+<p float="left">
+  <img src="docs/img/full_demo.jpg" width="45%" />
+</p>
 *[Click here to watch the full demo video](LINK_TO_VIDEO)*
 
 ## Overview
