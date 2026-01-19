@@ -25,9 +25,9 @@ The system mimics a radar station:
 | Component | Role | Interface | Protocol |
 | :--- | :--- | :--- | :--- |
 | **STM32F401RE NUCLEO** | Primary Controller | - | - |
-| **VL53L0X LiDAR** | Precision Ranging (The "Verifier") | I2C1 | I2C |
-| **HC-SR501 PIR** | Motion Trigger (The "Wake-up") | PA9 | EXTI (Interrupt) |
-| **SG90 Servo** | Pan Mechanism (The "Actuator") | TIM2 CH1 | PWM |
+| **VL53L0X LiDAR** | Precision Ranging | I2C1 | I2C |
+| **HC-SR501 PIR** | Motion Trigger | PA9 | EXTI (Interrupt) |
+| **SG90 Servo** | Pan Mechanism | TIM2 CH1 | PWM |
 | **16x2 LCD** | User Interface | I2C1 | I2C |
 
 ### Hardware Setup
