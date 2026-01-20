@@ -8,7 +8,8 @@
 <p float="left">
   <img src="docs/img/full_demo.jpg" width="45%" />
 </p>
-*[Click here to watch the full demo video](LINK_TO_VIDEO)*
+
+*Watch full demo video here: https://youtu.be/kZfAan9jCs8*
 
 ## Overview
 This project is a stationary sentry system built on the **STM32F401RE NUCLEO** platform to monitor and protect four physical sectors. The system integrates **PIR** motion detection, **Time-of-Flight (ToF) LiDAR** ranging, and mechanical actuation within a clean Finite State Machine (**FSM**). Unlike simple looping Arduino-style designs, it uses a bare-metal **HAL-based** approach without an RTOS, relying on **hardware interrupts (EXTI)** for event-driven responsiveness and non-blocking timers for **real-time scanning**, control, and state transitions.
